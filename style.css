@@ -1,0 +1,17 @@
+.searchBar{
+    outline: none !important;
+    background-color: #F2F2F2 !important;
+    border: none;
+    margin-left: 5px;
+}
+.searchBarForm{
+    background-color: #F2F2F2;
+}
+.searchBar:focus{
+    outline: none !important;
+    border:none;
+    background-color: #F2F2F2;
+}
+.custom-search{
+    border: none !important;
+}
