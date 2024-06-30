@@ -15,3 +15,43 @@
 .custom-search{
     border: none !important;
 }
+.overlay{
+    height: 440px !important;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.450),rgba(0, 0, 0, 0.600)) !important;
+}
+.background-text-home{
+    position: relative;
+    z-index: 2 !important;
+}
+.userName{
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
+#locationInput{
+    outline:none !important;
+     border: none !important;
+     background-color: #fff;
+}
+.location-info{
+    color: grey;
+    margin-top: -5px;
+}
+.follow{
+    background-color: #edeef0;
+}
+.leave-grp-btn{
+ border-radius: 5px;
+ display: flex;
+ align-items: center;
+ margin-left: 5px;
+}
+.d-hidden{
+    display: none !important;
+}
+.bg-semigreen{
+    background-color: #EFFFF4;
+    color: #008A45;
+    font-weight: 500;
+}
