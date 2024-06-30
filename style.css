@@ -55,3 +55,45 @@
     color: #008A45;
     font-weight: 500;
 }
+#Filter{
+    background-color: #edeef0;
+}
+@media (max-width:991px) {
+    .mobile-modal-overlay{
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        background-color: #fff;
+        bottom: 0;
+        z-index: 999;
+    }
+    .custom-bg-container,.overlay{
+        aspect-ratio: 16/9 !important;
+        height: 236px !important;
+    }
+    h3{
+        font-size: 14px !important;
+    }
+    .userName{
+        font-size: 13px !important;
+    }
+    .views{
+        font-size: 12px !important;
+    }
+    h4{
+        font-size: 16px !important;
+    }
+    .custom-justify-content-between{
+        aspect-ratio: 16/9 !important;
+        justify-content: space-between !important;
+    }
+}
+@media (max-width:690px) {
+    
+    main{
+        width: 100vw !important;
+        align-items: center;
+    }
+    main div{
+        max-width: 100vw !important;
+    }
+}

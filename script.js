@@ -1,5 +1,6 @@
 function joinGrp()
 {
+    document.getElementById("leaveGrpBtnSmall").innerHTML="Join Group"
     document.getElementById("joinGrpBtn").classList.add("d-hidden")
     document.getElementById("leaveGrpBtn").classList.remove("d-hidden")
     document.getElementById("recommendedGrps").classList.remove("d-hidden")
@@ -8,6 +9,7 @@ function joinGrp()
 }
 function leaveGrp()
 {
+    document.getElementById("leaveGrpBtnSmall").innerText="Leave Group"
     document.getElementById("recommendedGrps").classList.add("d-hidden")
     document.getElementById("columns").classList.add("d-hidden")
     document.getElementById("seeMore").classList.add("d-hidden")
@@ -45,4 +47,29 @@ function follow(element)
     element.style.backgroundColor="#edeef0"
     element.style.color="black"
     }
+}
+
+function updateGrp()
+{
+    if(document.getElementById("leaveGrpBtnSmall").innerHTML=="Leave Group")
+    {        
+        joinGrp()
+        return;
+    }
+    if(document.getElementById("leaveGrpBtnSmall").innerHTML=="Join Group")
+    {
+        leaveGrp()
+        return;
+    }
+}
+
+function hideMobileModal()
+{
+    document.body.style.overflow="block"
+    document.getElementById("mobileModal").classList.add("d-hidden")
+}
+function showMobileModal()
+{
+    document.getElementById("mobileModal").classList.remove("d-hidden")
+    document.body.style.overflow="hidden"
 }
